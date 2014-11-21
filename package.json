@@ -1,0 +1,35 @@
+{
+  "name": "nash-help",
+  "version": "1.0.0",
+  "description": "Help/usage display plugin for Nash command line masterpieces",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottcorgan/nash-help.git"
+  },
+  "keywords": [
+    "nash",
+    "command",
+    "line",
+    "cli",
+    "usage"
+  ],
+  "author": "Scott Corgan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottcorgan/nash-help/issues"
+  },
+  "homepage": "https://github.com/scottcorgan/nash-help",
+  "devDependencies": {
+    "nash": "^1.2.0",
+    "tap-spec": "^2.1.0",
+    "tape": "^3.0.3"
+  },
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "pretty-print": "^1.0.0"
+  }
+}
